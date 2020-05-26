@@ -1,0 +1,28 @@
+uuid: 95d22ee4-ede5-49a8-8e22-061c4a2b056e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.staff_page.body
+    - node.type.staff_page
+  module:
+    - text
+    - user
+id: node.staff_page.default
+targetEntityType: node
+bundle: staff_page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
